@@ -1,8 +1,8 @@
-import * as apiModel from '#pods/character/api/character.api-model';
+import * as apiModel from './api/single-character.api-model';
 import * as viewModel from './single-card.vm';
 
 export const mapCharacterFromApiToVm = (
-  character: apiModel.Character
+  character: apiModel.CharacterEntityApi
 ): viewModel.Character => ({
   id: character.id.toString(),
   name: character.name,

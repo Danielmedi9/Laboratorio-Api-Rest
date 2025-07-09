@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { getCharacterById } from '#pods/character/api';
+import { getCharacterById } from './api/single-character.api';
 import { Character } from './single-card.vm';
 import { mapCharacterFromApiToVm } from './single-card.mapper';
 
